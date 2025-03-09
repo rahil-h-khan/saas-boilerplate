@@ -2,12 +2,18 @@ import uuid
 from datetime import datetime
 from pydantic import BaseModel, EmailStr
 from typing import Optional, List
+from enum import Enum
+
+class Role(str, Enum):
+    USER = "user"
+    ADMIN = "admin"
 
 class User(BaseModel):
     id: str = str(uuid.uuid4())
     username: str
     email: EmailStr
     hashed_password: str
+    role: str = "user"
     created_at: datetime = datetime.utcnow()
 
     class Config:

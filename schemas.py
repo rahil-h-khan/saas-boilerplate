@@ -11,6 +11,7 @@ class UserResponse(BaseModel):
     id: str
     username: str
     email: EmailStr
+    role: str
     created_at: datetime
 
 class SubscriptionPlanCreate(BaseModel):
@@ -48,4 +49,3 @@ class PaymentResponse(BaseModel):
     amount: float
     payment_date: datetime
     status: str
-    
