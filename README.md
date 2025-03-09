@@ -1,8 +1,8 @@
-🚀 SaaS Boilerplate with FastAPI
+# 🚀 SaaS Boilerplate with FastAPI
 
 A scalable and production-ready SaaS boilerplate built with FastAPI, MongoDB, Redis, and JWT-based authentication. This project provides a solid foundation for building multi-tenant SaaS applications with features like user authentication, role-based access control (RBAC), password reset, and more.
 
-🛠 Project Overview
+## 🛠 Project Overview
 
 🌟 Why This Project?
 
@@ -18,32 +18,32 @@ Building a SaaS product from scratch involves repetitive yet crucial features li
 ✅ Environment-based Configuration (.env Support)
 ✅ Docker Support (Coming Soon 🚀)
 
-🛠 Core Functionalities
+## 🛠 Core Functionalities
 
-1️⃣ User Authentication
+- 1️⃣ User Authentication
 	•	Secure JWT-based authentication.
 	•	Password hashing with bcrypt.
 	•	User registration & login.
 	•	Redis-based session management for optimizing authentication.
 
-2️⃣ Role-Based Access Control (RBAC)
+- 2️⃣ Role-Based Access Control (RBAC)
 	•	Assign roles like Admin, User, Manager.
 	•	Restrict API access based on permissions.
 
-3️⃣ Password Reset
+- 3️⃣ Password Reset
 	•	Users can request a password reset (without email).
 	•	Secure password update mechanism.
 
-4️⃣ Redis for Session Management & Caching
+- 4️⃣ Redis for Session Management & Caching
 	•	Stores active JWT tokens for session tracking.
 	•	Prevents unauthorized access after logout.
 	•	Improves performance with caching for frequently accessed data.
 
-5️⃣ Database (MongoDB)
+- 5️⃣ Database (MongoDB)
 	•	Uses MongoDB as the primary database.
 	•	Stores user information & roles securely.
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 	•	FastAPI (Python Web Framework)
 	•	MongoDB (NoSQL Database)
 	•	Redis (Session Management & Caching)
@@ -51,7 +51,7 @@ Building a SaaS product from scratch involves repetitive yet crucial features li
 	•	JWT (JSON Web Tokens) (Authentication)
 	•	Bcrypt (Password Hashing)
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 🔹 Multi-Tenancy Support (Separate Workspaces for Users)
 🔹 Subscription & Payment Integration (Stripe/PayPal)
